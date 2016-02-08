@@ -1,0 +1,27 @@
+body {
+  background-color: #888;
+}
+
+.container, .col {
+  border: 2px solid white;
+}
+
+
+.subscribe-link {
+  float: right;
+  padding-right: 30px;
+  color: white;
+}
+
+.social-links a {
+  color: white
+}
+
+.primary-nav a {
+  color: white;
+
+}
+
+article {
+  background-color: rgb(255, 0, 0);
+}
