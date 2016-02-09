@@ -1,27 +1,103 @@
 body {
-  background-color: #888;
+  background: linear-gradient(
+      rgba(88, 87, 85, .85),
+      rgba(88, 87, 85, .85)), url('images/page-background.jpg');
+  background-size: cover;
+
 }
 
-.container, .col {
-  border: 2px solid white;
-}
 
+.subscribe-contain a {
+  text-decoration: none;
+}
 
 .subscribe-link {
+  font-size: 13px;
+  text-transform: uppercase;
   float: right;
-  padding-right: 30px;
+  margin-top: 29px;
+  padding-right: 58px;
   color: white;
+}
+
+.subscribe-contain i {
+  color: white;
+  float: right;
+  font-size: 4px;
+  vertical-align: middle;
+}
+
+.social-links {
+  margin-top: 6px;
+}
+
+.social-links li {
+  display: inline-block;
+  list-style: none;
+  box-shadow: 0 4px #888888;
+
 }
 
 .social-links a {
+  text-decoration: none;
   color: white
 }
 
-.primary-nav a {
-  color: white;
+.social-links i {
+  color: rgba(255, 255, 255, .3);
+  font-size: 34px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
 
 }
 
+#facebook {
+  background-color: rgba(68, 89, 151, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#rss {
+  background-color: rgba(205, 144, 49, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#twitter {
+  background-color: rgba(105, 141, 199, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#youtube {
+  background-color: rgba(177, 56, 45, 1);
+  height: 60px;
+  width: 60px;
+}
+
+.primary-nav a {
+  text-transform: uppercase;
+  color: white;
+  width: 248px;
+  height: 40px;
+
+}
+
+
+
+.nav-pills {
+  border-radius: 0;
+}
+
+.nav li {
+  box-shadow: 0 4px #888888;
+  text-align: center;
+  width: 248px;
+  background-color: rgba(179, 41, 46, 1);
+}
+
+
 article {
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 255, 255, 1);
 }
