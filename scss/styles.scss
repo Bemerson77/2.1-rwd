@@ -1,0 +1,320 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+body {
+  background: linear-gradient(
+      rgba(88, 87, 85, .85),
+      rgba(88, 87, 85, .85)), url('../images/page-background.jpg') fixed;
+  background-size: cover;
+
+}
+
+
+.subscribe-contain a {
+  text-decoration: none;
+}
+
+.subscribe-link {
+  font-size: 13px;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 29px;
+  color: white;
+}
+
+
+.subscribe-contain i {
+  color: white;
+  float: right;
+  font-size: 4px;
+  vertical-align: middle;
+}
+
+.social-links {
+  margin-top: 6px;
+  float: right;
+}
+
+.social-links li {
+  display: inline-block;
+  list-style: none;
+  box-shadow: 0 4px #888888;
+
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  height: 60px;
+}
+
+.social-links i {
+  color: rgba(255, 255, 255, .3);
+  font-size: 34px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+
+
+}
+
+
+#facebook {
+  background-color: rgba(68, 89, 151, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#rss {
+  background-color: rgba(205, 144, 49, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#twitter {
+  background-color: rgba(105, 141, 199, 1);
+  height: 60px;
+  width: 60px;
+}
+
+#youtube {
+  background-color: rgba(177, 56, 45, 1);
+  height: 60px;
+  width: 60px;
+}
+
+.primary-nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  box-shadow: 0 4px #888888;
+  margin-bottom: 17px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  height: 40px;
+  color: white;
+  width: 100%;
+  background-color: rgba(179, 41, 46, 1);
+
+}
+
+header {
+  background: url("../images/top-image.png") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 337px;
+  border: 8px solid rgba(249, 249, 249, 1);
+  box-shadow: 0 4px #888888;
+  background-position: 30% 27%;
+  background-size: 140%;
+}
+
+
+.header-logo {
+  margin: 50px 0 0 12px;
+}
+
+
+.blog-post {
+  background-color: rgba(255, 255, 255, 1);
+  height: 350px;
+  margin-top: 69px;
+  box-shadow: 0 4px #888888;
+
+  h2 {
+    width: 86%;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px 0 0 25px;
+  }
+  span{
+    color:rgba(168, 168, 168, 1);
+  }
+}
+
+
+.skateboarders {
+  margin-top: 41px;
+}
+
+.img-cluster {
+  display: inline;
+
+}
+
+.img-cluster a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.img-contain {
+  text-align: center;
+  line-height: 222px;
+  font-size: 33px;
+  font-weight: 900;
+
+
+}
+
+.img-contain-tg {
+  text-align: center;
+  line-height: 454px;
+  font-size: 33px;
+  font-weight: 900;
+
+}
+
+.lance {
+  background: url("../images/lance.png") center center;
+  height: 222px;
+  border: 5px solid rgba(249, 249, 249, 1);
+  background-position: 90%;
+  box-shadow: 0 4px #888888;
+
+
+}
+
+.rodney {
+  background: url("../images/rodney.png") center center;
+  height: 222px;
+  border: 5px solid rgba(249, 249, 249, 1);
+  background-position: 10%;
+  box-shadow: 0 4px #888888;
+
+}
+
+.steve {
+  background: url("../images/steve.png") center center;
+  height: 222px;
+  border: 5px solid rgba(249, 249, 249, 1);
+  margin-top: 10px;
+  box-shadow: 0 4px #888888;
+
+}
+
+.tommy {
+  background: url("../images/tommy.png") center center;
+  height: 454px;
+  border: 5px solid rgba(249, 249, 249, 1);
+  background-position: 79%;
+  box-shadow: 0 4px #888888;
+
+}
+
+.boards {
+  height: 295px;
+  width: 100%;
+  margin: 31px 0 0 0;
+  box-shadow: 0 4px #888888;
+
+}
+
+.boards ul {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0 0 0 40px;
+}
+
+.boards ul li {
+  display: inline-block;
+  line-height: 295px;
+  margin-left: 2.5%;
+
+}
+
+.contact-info {
+  height: 361px;
+  width: 100%;
+  margin: 35px 0 96px 0;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px #888888;
+
+
+}
+
+.contact-form {
+  float: right;
+  padding: 33px 29px 0 0;
+}
+
+.contact-wording {
+  padding: 0 0 0 40px;
+
+  h3 {
+    padding: 5px 0 0 0;
+  }
+
+    p {
+     padding: 10px 0 0 0;
+     line-height: 30px;
+
+
+  }
+}
+
+.contact-form button {
+  border-radius: 0;
+  float: right;
+  background-color: rgba(179, 41, 46, 1);
+  color: white;
+  text-transform: uppercase;
+  width: 248px;
+
+
+}
+
+.contact-social-links {
+  margin-top: 6px;
+  float: left;
+  padding: 0;
+}
+
+.contact-social-links li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+.contact-social-links a {
+  text-decoration: none;
+  color: white;
+  height: 30px;
+}
+
+.contact-social-links i {
+  color: rgba(255, 255, 255, .3);
+  font-size: 18px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#contact-facebook {
+  background-color: rgba(123, 123, 123, 1);
+  height: 30px;
+  width: 30px;
+}
+
+#contact-rss {
+  background-color: rgba(123, 123, 123, 1);
+  height: 30px;
+  width: 30px;
+}
+
+#contact-twitter {
+  background-color: rgba(123, 123, 123, 1);
+  height: 30px;
+  width: 30px;
+}
+
+#contact-youtube {
+  background-color: rgba(123, 123, 123, 1);
+  height: 30px;
+  width: 30px;
+}
