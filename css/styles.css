@@ -5823,12 +5823,6 @@ body {
   margin-top: 29px;
   color: white; }
 
-.subscribe-contain i {
-  color: white;
-  float: right;
-  font-size: 4px;
-  vertical-align: middle; }
-
 .social-links {
   margin-top: 6px;
   float: right; }
@@ -5909,7 +5903,17 @@ header {
     font-size: 25px;
     padding: 15px 0 0 25px; }
   .blog-post span {
-    color: #a8a8a8; }
+    color: #a8a8a8;
+    padding: 50px 0 0 25px; }
+  .blog-post p {
+    padding: 50px 0 0 25px;
+    font-size: 12px;
+    width: 86%; }
+  .blog-post a {
+    display: block;
+    text-align: center;
+    color: #b3292e;
+    font-weight: 600; }
 
 .skateboarders {
   margin-top: 41px; }
